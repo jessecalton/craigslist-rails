@@ -1,11 +1,7 @@
 <h1>This is the show page</h1>
 
+<h2>Add a Post:</h2>
+<%= render 'posts/form' %>
 
 
-<% @posts.each do |post| %>
-  <tr>
-    <td><%= post.title %></td>
-    <td><%= link_to 'Post', post_path %></td>
-  </tr>
-<% end %>
 
